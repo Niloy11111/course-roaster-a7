@@ -10,6 +10,7 @@ function App() {
 
   const [cards, setCards] = useState([]);
   const [selectedCourse, setSelectedCourse] = useState([]);
+  const [creditHour, setCreditHour] = useState(0);
   
   
   
@@ -21,6 +22,8 @@ function App() {
 
   const handleClickButton = (item) => {
     const isExist = selectedCourse.find((course) => course.id === item.id )
+    let creditHour = item.credit_hour ;
+
     if(isExist){
       alert('ar add kora jabena')
     }
@@ -28,12 +31,11 @@ function App() {
       const newSelectedCourse = [...selectedCourse, item] ;
       setSelectedCourse(newSelectedCourse);
 
-      selectedCourse.forEach(each =>
-         console.log(each.credit_hour)  )
+      selectedCourse.forEach(each => creditHour = creditHour + each.credit_hour )
+      setCreditHour(creditHour);
     }
-     
   }
-  
+
 
   return (
     <div className='px-16 py-14 bg-[#F3F3F3]'>
@@ -51,7 +53,7 @@ function App() {
        </div>
 
         <div className='akane cart'>
-          <Cart selectedCourse={selectedCourse}></Cart>
+          <Cart creditHour={creditHour} selectedCourse={selectedCourse}></Cart>
         </div>
 
        
