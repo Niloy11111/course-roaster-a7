@@ -1,6 +1,9 @@
+import { list } from "postcss";
 
 
 const Cart = ({selectedCourse, creditHour}) => {
+
+    let count = 1 ;
 
     const remainingCreditHour = 20 - creditHour ;
     return (
@@ -8,11 +11,13 @@ const Cart = ({selectedCourse, creditHour}) => {
             <h2 className="text-[#2F80ED] pb-4 text-lg font-bold border-b border-[#1C1B1B33]">Credit Hour Remaining {remainingCreditHour} hr</h2>
             <h2 className="mt-4 mb-5 text-xl text-[#1C1B1B] font-bold ">Course Name</h2>
 
-            <p className="border-b pb-6 border-[#1C1B1B33] text-[#1C1B1B99] text-base font-normal">
-               {
-                selectedCourse.map(course => course.title)
-               }
-            </p>
+            <ol className="border-b pb-6 border-[#1C1B1B33] text-[#1C1B1B99] text-base font-normal">
+          
+         {
+              selectedCourse.map(item => <li key={item.id}> {count++}  {item.title} </li>)
+          }
+
+            </ol>
             <p className="pt-4 border-b border-[#1C1B1B33] pb-4 text-[#1C1B1BCC] text-base">
             Total Credit Hour: {creditHour}
             </p>

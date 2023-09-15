@@ -22,7 +22,10 @@ const Card = ({item, handleClickButton}) => {
          <span className='text-[#1C1B1B99] text-base font-medium'>Credit : {credit_hour}hr</span>
             </div>
 
-            <button onClick={() => handleClickButton(item)} className='rounded-lg px-48 py-2 text-[#FFF] font-semibold text-lg bg-[#2F80ED]'>Select</button>
+        
+          <button onClick={() => handleClickButton(item)} className='rounded-lg px-48 py-2 text-[#FFF] font-semibold text-lg bg-[#2F80ED]'>Select</button>
+          
+        
             
         </div>
     );
