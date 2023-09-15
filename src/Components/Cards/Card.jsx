@@ -1,12 +1,12 @@
 import { PiCurrencyDollarThin } from 'react-icons/pi';
 
-const Card = ({item}) => {
+const Card = ({item, handleClickButton}) => {
 
     const {cover_img, title, description, price,credit_hour} = item ;
 
     return (
         <div className='p-4 bg-[#FFF] rounded-xl'>
-            <img className='mb-4' src={cover_img}></img>
+            <img className='mb-4 w-full' src={cover_img}></img>
             <h3 className="mb-3 text-xl font-semibold text-[#1C1B1B]">
                 {title}
             </h3>
@@ -22,7 +22,7 @@ const Card = ({item}) => {
          <span className='text-[#1C1B1B99] text-base font-medium'>Credit : {credit_hour}hr</span>
             </div>
 
-            <button className='btn-select rounded-lg px-28 py-2 text-[#FFF] font-semibold text-lg bg-[#2F80ED]'>Select</button>
+            <button onClick={() => handleClickButton(item)} className='rounded-lg px-48 py-2 text-[#FFF] font-semibold text-lg bg-[#2F80ED]'>Select</button>
             
         </div>
     );
