@@ -19,7 +19,7 @@ const Card = ({item, handleClickButton}) => {
             <div className='flex gap-3 items-center mb-6'>
 
             <button className='text-2xl text-[#1C1B1B]'> <PiCurrencyDollarThin></PiCurrencyDollarThin> </button>
-            <span className='mr-1 text-base font-medium text-[#1C1B1B99]'>Price :{price}</span>
+            <span className='mr-1 text-base font-medium text-[#1C1B1B99]'>Price : {price}</span>
          <img src="https://i.ibb.co/5hcC0Y1/Frame.png"></img>
          <span className='text-[#1C1B1B99] text-base font-medium'>Credit : {credit_hour}hr</span>
             </div>

@@ -34,7 +34,7 @@ function App() {
     
 
     if(isExist ){
-      toast.error('Sorry ! It is already selected', {
+      toast.error('Sorry ! it has already been selected', {
         position: toast.POSITION.TOP_CENTER
     });
     }
@@ -42,14 +42,13 @@ function App() {
       const newSelectedCourse = [...selectedCourse, item] ;
      
       selectedCourse.forEach(each => creditHour = creditHour + each.credit_hour )
-      // const remainingCreditHour = 20 - creditHour ;
 
       if(creditHour <= 20){
         setCreditHour(creditHour);
         setSelectedCourse(newSelectedCourse);
       } 
       else{
-        toast.error('Sorry ! You cannot add credit more than 20 hr ', {
+        toast.error('Sorry! You cannot add credit for more than 20 hour', {
           position: toast.POSITION.TOP_CENTER
       });
       }
@@ -58,7 +57,7 @@ function App() {
 
 
   return (
-    <div className='px-16 py-14 bg-[#F3F3F3]'>
+    <div className='px-16 pt-14 pb-20 bg-[#F3F3F3]'>
 
       <ToastContainer />
       <h1  className='text-3xl mb-12 text-center text-[#1C1B1B] font-bold'>Course Registration</h1>
