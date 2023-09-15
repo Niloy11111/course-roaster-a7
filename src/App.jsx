@@ -1,4 +1,5 @@
-import React from 'react';
+
+
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -32,21 +33,20 @@ function App() {
 
     
 
-    if(isExist){
+    if(isExist ){
       toast.error('Sorry ! It is already selected', {
         position: toast.POSITION.TOP_CENTER
     });
     }
     else{
       const newSelectedCourse = [...selectedCourse, item] ;
-      setSelectedCourse(newSelectedCourse);
-
+     
       selectedCourse.forEach(each => creditHour = creditHour + each.credit_hour )
       // const remainingCreditHour = 20 - creditHour ;
 
       if(creditHour <= 20){
         setCreditHour(creditHour);
-        
+        setSelectedCourse(newSelectedCourse);
       } 
       else{
         toast.error('Sorry ! You cannot add credit more than 20 hr ', {
@@ -89,5 +89,7 @@ function App() {
     </div>
   )
 }
+
+
 
 export default App

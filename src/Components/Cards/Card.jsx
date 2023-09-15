@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import { PiCurrencyDollarThin } from 'react-icons/pi';
 
 const Card = ({item, handleClickButton}) => {
@@ -30,5 +32,10 @@ const Card = ({item, handleClickButton}) => {
         </div>
     );
 };
+
+Card.propTypes = {
+    item : PropTypes.object.isRequired,
+    handleClickButton : PropTypes.func.isRequired
+}
 
 export default Card;

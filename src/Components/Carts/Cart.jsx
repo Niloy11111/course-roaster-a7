@@ -1,8 +1,8 @@
-import { list } from "postcss";
+import PropTypes from 'prop-types';
 
+// import { list } from "postcss";
 
 const Cart = ({selectedCourse, creditHour}) => {
-
     let count = 1 ;
 
     const remainingCreditHour = 20 - creditHour ;
@@ -24,5 +24,10 @@ const Cart = ({selectedCourse, creditHour}) => {
         </div>
     );
 };
+
+Cart.propTypes = {
+    selectedCourse : PropTypes.array.isRequired,
+    creditHour : PropTypes.number.isRequired
+}
 
 export default Cart;
