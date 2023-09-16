@@ -1,7 +1,7 @@
 [
     {
       "cover_img": "https://i.ibb.co/LRxdR79/Rectangle-2-2.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": " Learn the basics of C programming and start your journey into software development with hands-on coding exercises.",
       "price": 15000,
       "credit_hour": 1,
       "title": "Introduction to C Programming",
@@ -9,7 +9,7 @@
     },
     {
       "cover_img": "https://i.ibb.co/t27vwd5/Rectangle-2-3.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": " Master the art of designing and analyzing algorithms to solve real-world problems efficiently using various techniques and data structures.",
       "price": 25000,
       "credit_hour": 2,
       "title": "Introduction to Algorithms",
@@ -17,7 +17,7 @@
     },
     {
       "cover_img": "https://i.ibb.co/xMK9J4G/Rectangle-2-4.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": " Explore the power of C++ programming language and its application in data structures and algorithms through practical examples and projects.",
       "price": 10000,
       "credit_hour": 10,
       "title": "Introduction to C++ for DSA",
@@ -25,7 +25,7 @@
     },
     {
       "cover_img": "https://i.ibb.co/2Pmsvhd/Rectangle-3.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Dive into fundamental data structures like arrays, linked lists, stacks, and queues to solve complex problems and improve your coding skills.",
       "price": 35000,
       "credit_hour": 5,
       "title": "Basic Data Structures",
@@ -33,7 +33,7 @@
     },
     {
       "cover_img": "https://i.ibb.co/Fg7gbmJ/Rectangle-2.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Discover the principles of object-oriented programming using Python and learn to create reusable code and build robust applications.",
       "price": 19000,
       "credit_hour": 5,
       "title": "Introduction to OOP Python",
@@ -41,7 +41,7 @@
     },
     {
       "cover_img": "https://i.ibb.co/GQHVP4t/Rectangle-2-5.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": " Gain insights into the systematic approach of developing high-quality software applications using industry best practices and methodologies.",
       "price": 23000,
       "credit_hour": 2,
       "title": "Software Engineering",
@@ -49,7 +49,7 @@
     },
     {
       "cover_img": "https://i.ibb.co/KVSHbzh/Rectangle-3-1.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": " Learn the essentials of Amazon Web Services (AWS) and cloud computing to build scalable and reliable applications in the cloud environment.",
       "price": 35000,
       "credit_hour": 5,
       "title": "AWS, Cloud Computing",
@@ -57,7 +57,7 @@
     },
     {
       "cover_img": "https://i.ibb.co/KyVCP7W/Rectangle-2-1.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Develop a solid foundation in MySQL database management, learn to design efficient database schemas, and write optimized queries.",
       "price": 19000,
       "credit_hour": 5,
       "title": "Database (MySQL)",
@@ -65,7 +65,7 @@
     },
     {
       "cover_img": "https://i.ibb.co/Z211sQg/Rectangle-2-6.png",
-      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "description": "Sharpen your problem-solving skills through hands-on exercises, algorithmic thinking, and logical reasoning to tackle coding challenges with confidence.",
       "price": 23000,
       "credit_hour": 2,
       "title": "Problem-Solving Part",
