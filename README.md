@@ -1,11 +1,18 @@
 # Here Are The Three Project Features
-<br/>
 
- - ### Map() : Dynamically render elements by iterating over an array and transforming each element to create a new array.
+ - ### Course Selection <br/>
 
- - ### Find() : Search for the first element in an array that satisfies a given condition and return it.
+    ### In this project, a user can select a course from my website .
 
-- ### Data Fetching : Retrieve data from an external source, such as an API, and use it to populate the content of your website dynamically.
+ - ### Credit Hour count and Credit hour Remaining
+
+   ### When candidates select their course from this website they can see their total selected courses credit hours and we have also another feature which is the remaining Credit hours. A student can enrol on a maximum of 20 credit hours. So the candidates can see how much his/her remaining credit hours are after selecting his/her desired courses.  
+
+   
+
+ - ### Toast  Showing<br/>
+
+   ### If any candidate tries to select one course more than one time he/she gets a toast error and similarly when a candidate tries to select more than 20 credit hours he/she gets an error toast.
 
 <br/>
 

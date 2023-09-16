@@ -25,7 +25,7 @@ const Card = ({item, handleClickButton}) => {
             </div>
 
         
-          <button onClick={() => handleClickButton(item)} className='rounded-lg px-48 py-2 text-[#FFF] font-semibold text-lg bg-[#2F80ED]'>Select</button>
+          <button onClick={() => handleClickButton(item)} className='rounded-lg min-w-full  py-2 text-[#FFF] font-semibold text-lg bg-[#2F80ED]'>Select</button>
           
         
             

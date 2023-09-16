@@ -35,7 +35,7 @@ function App() {
 
     if(isExist ){
       toast.error('Sorry ! it has already been selected', {
-        position: toast.POSITION.TOP_CENTER
+        position: toast.POSITION.TOP_LEFT
     });
     }
     else{
@@ -49,7 +49,7 @@ function App() {
       } 
       else{
         toast.error('Sorry! You cannot add credit for more than 20 hour', {
-          position: toast.POSITION.TOP_CENTER
+          position: toast.POSITION.TOP_RIGHT
       });
       }
     }
