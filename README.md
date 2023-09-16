@@ -2,7 +2,7 @@
 
  - ### Course Selection <br/>
 
-    ### In this project, a user can select a course from my website .
+    ### In this project, a user can select different types of courses from my website .
 
  - ### Credit Hour count and Credit hour Remaining
 
